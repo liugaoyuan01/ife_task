@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.main{
+	background: #ccc;
+	line-height: 2em;
+}
+/*头部*/
+.heared{
+	background: #333;
+	width: 100%;
+	height: 60px;
+}
+.heared ul{
+	list-style: none;
+}
+.heared li{
+	float: right;
+}
+.heared ul li a{
+	text-decoration: none;
+	display: block;
+	margin-top: 20px;
+	margin-right: 20px;
+	color: red;
+}
+/*头部 end*/
+
+/*第一部分*/
+.one{
+	margin:20px;
+	padding:30px 15px;
+	border:3px;
+	border-color:green;
+	background: white;
+}
+/*第一部分end*/
+
+/*第二部分*/
+.two{
+	margin:20px;
+	padding:30px 15px;
+	border:3px;
+	border-color:green;
+	background: white;
+}
+.two li{
+	list-style: none;
+	text-indent: 20px;
+}
+/*第二部分 end*/
+
+/*图片部分*/
+.tp{
+	margin:20px;
+	padding:30px 15px;
+	border:3px;
+	border-color:green;
+	background: white;
+}
+.tp figure{
+	margin: 30px 50px;
+	border: 1px red solid;
+	padding: 20px 35px;
+	width: 400px;
+	text-align: center;
+}
+/*图片部分 end*/
+
+/*第三部分*/
+.three{
+	margin:20px;
+	padding:30px 15px;
+	border:3px;
+	border-color:green;
+	background: white;
+}
+.three li{
+	margin-left: 45px;
+}
+.three table,td,th{
+	border:1px solid red;
+}
+.three table{
+	border-collapse: collapse;
+	width: 100%
+}
+.three th{
+	background: black;
+	color:white;
+}
+.ccc{
+	background: #ccc;
+}
+/*第三部分 end*/
+
+/*表单*/
+.last{
+	margin:20px;
+	padding:30px 15px;
+	border:3px;
+	border-color:green;
+	background: white;
+}
+.last form{
+	text-align: center;
+}
+#tj{
+	 color: #d9eef7;  
+    border: solid 1px #0076a3;  
+    background: #0095cd;  
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));  
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);  
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');  
+}
+/*表单 end*/
+
+/*页尾*/
+.yw{
+	height: 3em;
+	background: black;
+	color: white;
+	text-align: center;
+
+}

@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/*全局*/
+.main{
+	background: #eee;
+	border:1px #999 solid;
+	margin: 0;
+	position: relative;
+	
+}
+/*全局 end*/
+
+/*左边*/
+.left{
+	width: 200px;
+	margin:20px;
+	background: white;
+	overflow: hidden;
+	position: absolute;
+}
+.left img{
+	padding: 20px;
+	float: left;
+}
+.left h4{
+	padding-top: 20px;
+}
+/*左边end*/
+
+/*中间*/
+.middle{
+	margin: 20px 170px 20px 240px;
+	background: white;
+	overflow: hidden;
+}
+.middle p{
+	padding: 20px;
+}
+/*中间end*/
+
+/*右边*/
+.right{
+	width: 120px;
+	margin:20px;
+	background: white;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+.right img{
+	padding: 20px;
+}
+/*右边end*/
